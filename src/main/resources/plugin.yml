@@ -1,0 +1,25 @@
+name: FanVerify
+description: FanVerify Plugin
+version: '1.0.0'
+
+main: com.xiaofan.fanVerify.FanVerify
+api-version: '1.20'
+load: POSTWORLD
+folia-supported: true
+
+authors: [ xiaofan ]
+
+depend:
+  - packetevents
+
+commands:
+  bind:
+    description: 绑定 UID 和 pass_code
+    usage: /bind <uid> <pass_code>
+  p:
+    description: 验证 pass_code
+    usage: /p <pass_code>
+  ubind:
+    description: 解绑玩家的 FanVerify 帐号（仅 OP/管理员）
+    usage: /ubind <playername> [-y]
+    permission: fanverify.admin

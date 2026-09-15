@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# 运行时文件
+run/
+*.log
+
+# 编译输出
+*.class
+*.jar
+!gradle-wrapper.jar
+
+# 数据库文件
+*.db
+*.db-journal
+
+# 配置文件（包含敏感信息）
+config.yml
+!src/main/resources/config.yml
+
+# 依赖库
+libs/
+libraries/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~

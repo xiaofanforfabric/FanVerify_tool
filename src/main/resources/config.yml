@@ -1,0 +1,20 @@
+# FanVerify Plugin Configuration
+
+# 开发者访问令牌 (从 FanVerify 开发者平台获取)
+dev_access_token: ""
+
+# OTP 超时时间（秒）
+# 默认: 120秒
+# 用户必须在此时间内完成验证，否则验证码失效
+timeout: 120
+
+# 登录点配置
+# 玩家登录时会被传送到此位置进行验证
+# 验证成功后传送到上次下线位置
+login_point:
+  world: "world"
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
