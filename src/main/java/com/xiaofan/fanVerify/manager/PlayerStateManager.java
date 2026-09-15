@@ -42,7 +42,6 @@ public class PlayerStateManager extends PacketListenerAbstract {
         this.plugin = plugin;
         // 注册 PacketEvents 监听器
         PacketEvents.getAPI().getEventManager().registerListener(this);
-        NOJADXTOOL();
     }
 
 
